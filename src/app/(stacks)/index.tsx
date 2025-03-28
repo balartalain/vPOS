@@ -1,6 +1,7 @@
 import { View , StyleSheet} from "react-native";
 import React from "react";
 import { useRouter } from "expo-router";
+import { Ionicons } from "@expo/vector-icons";
 import { Button, Text, Surface, useTheme } from 'react-native-paper';
 import ProductList from '../../components/productList';
 import { sortRoutes } from "expo-router/build/sortRoutes";
@@ -22,6 +23,7 @@ function TicketScreen() {
     </View>
   );
 }
+ 
 const styles = StyleSheet.create({
   surface: {
     paddingTop: 20,
